@@ -1,0 +1,105 @@
+*{
+  box-sizing: border-box;
+}
+body{
+background-color: #1767b1;
+}
+h1{
+  text-align: center;
+}
+div{
+  width: 30%;
+  margin-left:35%;
+  border: 8px solid #21a594;
+  text-align: center;
+}
+h3{
+  margin-left: 7%;
+  width: 30%;
+  float: left;
+  text-align: center;
+  opacity: 0;
+  animation-name: bounceIn;
+  animation-duration: 450ms;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+h3{animation-delay: 2s;}
+/* h3:nth-child(2){animation-delay: 2.75s;}
+h3:nth-child(3){animation-delay: 3s;}
+h3:nth-child(4){animation-delay: 3.15s;} */
+
+@keyframes bounceIn{
+  0%{
+    opacity: 0;
+    transform: scale(0.3) translate3d(0,0,0);
+  }
+  50%{
+    opacity: 0.9;
+    transform: scale(1.1);
+  }
+  80%{
+    opacity: 1;
+    transform: scale(0.89);
+  }
+  100%{
+    opacity: 1;
+    transform: scale(1) translate3d(0,0,0);
+  }
+}
+/* Style buttons */
+i{
+    font-size: -webkit-xxx-large;
+    margin: 5%;
+    margin-left: 8%;
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 12px 16px; /* Some padding */
+    cursor: pointer; /* Mouse pointer on hover */
+}
+/* Darker background on mouse-over */
+i:hover {
+  background-color: #21a594;
+}
+section{
+  float: left;
+  clear: both;
+  background-image: url("../media/rules.png");
+  background-size: 100% 100%;
+  border: 14px solid #21a594;
+  width: 25%;
+  height: 425px;
+  text-align: center;
+
+}
+
+img {
+  float: left;
+  height: 300px;
+  margin: 5% auto;
+  margin-left: 9%;
+  background-color: #1767b1;
+  animation-name: stretch;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 0s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+@keyframes stretch {
+  0% {
+    transform: scale(.3);
+    background-color: #95bdb8;
+    border-radius: 100%;
+  }
+  50% {
+    background-color: #519cca;
+  }
+  100% {
+    transform: scale(1.5);
+    background-color: #1767b1;
+  }
+}
