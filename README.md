@@ -3,7 +3,7 @@ ROCK PAPER SCISSORS LIZARD SPOCK
 This game is a nice twist on the traditional Rock Paper Scissors game with a few character/weapon additions of Lizard and Spock!
 Link to project: coming soon!
 
-![alt](..rpsls.mov)
+![alt](../rpsls.mov)
 
 
 How It's Made:
