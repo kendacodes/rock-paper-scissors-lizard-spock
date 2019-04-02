@@ -9,7 +9,7 @@ Link to project: coming soon!
 How It's Made:
 Tech used: HTML, CSS, JavaScript(ES6), css3 animation, Node.js
 
-Optimizations
+Optimizations 
 
 I want to update if where we can see what "weapon" the bot chooses as well as what "weapon" the player uses like a face off.
 
